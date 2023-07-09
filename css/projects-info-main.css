@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.projects-info-main{
+    position: relative;
+    margin-top: 190px;
+    height: 500px;
+    background-color: #212228;
+}
+.project-icon{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+.box-bottom{
+    border: none;
+    height: 700px;
+}
+.blocks{
+    margin-top: 350px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    height: 200px;
+}
+.products{
+    width: 300px;
+    /* border: 1px solid red; */
+}
+.products h1{
+    text-align: center;
+    color: white;
+}
+.products h2{
+    text-align: center;
+    font-size: 80px;
+    color: #BDB9CB;
+}

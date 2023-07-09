@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header-main{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 10px 8px gray;
+    background-color: #222222;
+}
+.header-section{
+    /* height: 120px; */
+    /* border: 2px solid red; */
+}
+.icon-main{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    /* border: 1px solid blue; */
+}
+.icon{
+    /* border: 2px solid purple; */
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+.text-portfolio{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.links{
+    width: 700px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+    /* border: 2px solid burlywood; */
+}
+.links a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: #ED5027;
+}
+.social-media{
+    width: 150px;
+    display: flex;
+    border-left: 3px solid white;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding-left: 10px;
+    /* border: 1px solid green; */
+}
+.fb-icon{
+    width: 50px;
+    height: 50px;
+}
+.linkedin-icon{
+    width: 50px;
+    height: 50px;
+}
+.twiter-icon{
+    width: 50px;
+    height: 50px;
+}
+
