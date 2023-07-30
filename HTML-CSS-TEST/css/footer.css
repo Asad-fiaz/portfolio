@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    margin-top: 60px;
+    height: 900px;
+    background-color: #181717;
+}
+.footer-main{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+}
+.About-skills{
+    width: 600px;
+    margin-top: 25px;
+}
+.About-skills h2:hover{
+    background-color: #ff4500;
+}
+.footer-text{
+    margin-left: 10px;
+    background-color: #222222;
+}
+.About-skills h2{
+    background-color: #222222;
+    margin-left: 10px;
+    height: 85px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    transition: 1s;
+    opacity: 2s;
+}
+.footer-text{
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-indent: 10px;
+}
+hr{
+    border: 5px solid #ff4500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.html{
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.Social-media{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.media-icons{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+@media(max-width:700px){
+    .footer-main{
+        display: inline;
+    }
+    .footer{
+        height: 1000px;
+    }
+    .About-skills{
+        padding-top: 20px;
+        width: 410px;
+    }
+    .About-skills h2{
+        font-size: 40px;
+    }
+    .footer-text{
+        line-height: 30px;
+        text-indent: 8px;
+        font-size: 18px;
+    }
+    .html{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header-bottom{
+    height: 600px;
+    background-color: black;
+}
+.name{
+    display: flex;
+}
+.name h1{
+    width: 600px;
+    color: white;
+    margin-top: 190px;
+    margin-left: 30px;
+}
+.small-circle-main{
+    margin-top: 300px;
+    animation-name: asad;
+    animation: ball 3s linear infinite;
+    animation-delay: 2s;    
+}
+@keyframes ball 
+{
+    0%{
+       transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(1px);
+    }
+}
+.small-circle{
+    width: 170px;
+    height: 10px;
+    margin-left: -150px;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+    color: white;
+}
+.small-circle-1{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.small-circle-2{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.small-circle-3{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.small-circle-4{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.small-circle-5{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.small-circle-6{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.small-circle-7{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.small-circle-8{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: burlywood;
+}
+.image{
+    margin-top: 150px;
+    margin-left: 200px;
+    position: relative;
+    opacity: 90%;
+}
+.my-image{
+    width: 300px;
+    height: 400px;
+}
+.hire{
+    width: 80px;
+    height: 50px;
+    border-radius: 0 0 30px 0;
+    color: black;
+    position: absolute;
+    left: 30px;
+    bottom: 200px;
+    background-color: burlywood;
+    transition: 1.5s;
+    opacity: 1.5s;
+}
+.hire p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.hire:hover{
+    background: white;
+}
+@media(max-width:700px){
+    .header-bottom{
+        height: 500px;
+    }
+    .name h1{
+        height: 100px;
+        width: 900px;
+        color: white;
+        font-size: 20px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+    .small-circle-main{
+        display: none;    
+    }
+    .image{
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+    .my-image{
+        width: 200px;
+        height: 300px;
+    }
+}

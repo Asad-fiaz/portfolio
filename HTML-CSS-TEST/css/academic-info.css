@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.education{
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.education h1{
+font-size: 70px;
+font-weight: bold;
+font-style: oblique;
+margin-left: 30px;
+text-transform: uppercase;
+}
+.main-container{
+    display: flex;
+    margin-top: 60px;
+    text-align: center;
+    width: 1100px;
+    justify-content: space-between;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 15px grey;
+}
+.container h1{
+    color: green;
+    margin-top: 30px;
+}
+.study-main{
+    display: flex;
+    margin-top: 30px;
+}
+.study-main p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+}
+.subject-combination p{
+    margin-left: -80px;
+    font-size: 20px;
+}
+.subject-combination ol{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+.city{
+    font-size: 15px;
+    color: black;
+}
+.school-img{
+    margin-left: 5px;
+}
+.school-1{
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+.small-school-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -90px;
+}
+.school-2{
+    width: 110px;
+    height: 125px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.school-3{
+    width: 110px;
+    height: 125px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+.graduation-main{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.grad-container{
+    width: 950px;
+    margin-top: 30px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 15px grey;
+}
+.grad-container h1{
+    color: green;
+    margin-top: 30px;
+}
+.grad-main{
+    display: flex;
+    margin-top: 30px;
+}
+.uni-img{
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+}
+.uni-name p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: grey;
+}
+.grad-city{
+    font-size: 20px;
+    color: black;
+}
+.bachelor-combination p{
+    font-size: 20px;
+}
+.bachelor-combination ol{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Adress-main p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Adress-main ol{
+    font-weight: bold;
+    font-size: 18px;
+}
+@media(max-width:700px){
+    .education{
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    .education h1{
+    font-size: 60px;
+    margin-left: 20px;
+    }
+    .main-container{
+        display: inline;
+    }
+    .container{
+        margin-left: 10px;
+        width: 415px;
+        height: 400px;
+    }
+    .school-img{
+        margin-left: 5px;
+    }
+    .school-1{
+        width: 200px;
+    }
+    .small-school-img{
+        width: 200px;
+        margin-top: -80px;
+    }
+    .school-2{
+        width: 80px;
+        height: 100px;
+    }
+    .school-3{
+        width: 80px;
+        height: 100px;
+    }
+    .school-name{
+        margin-left: -9px;
+        height: 100px;
+    }
+    .grad-container{
+        width: 410px;
+        margin-left: 10px;
+    }
+    .graduation-main{
+        display: inline;
+    }
+    .uni-name p{
+        font-size: 15px;
+    }
+    .grad-city{
+        font-size: 15px;
+    }
+    .bachelor-combination ol{
+        font-size: 15px;
+    }
+    .Adress-main ol{
+        font-size: 15px;
+    }
+}
